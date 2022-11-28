@@ -38,7 +38,7 @@ function my_aff_global(){
     {
         if(is_string($value))
         {
-            echo "[$key] => [$value]\n";
+            echo "$key => $value\n";
         }
     }
 }

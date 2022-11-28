@@ -2,7 +2,7 @@
 
 function my_print_cookie(string $key)
 {
-    $_COOKIE[$key] = "toto";
+    //$_COOKIE[$key] = "toto";
 
     if(isset($_COOKIE[$key]))
     {

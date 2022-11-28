@@ -15,7 +15,7 @@ function declare_globals()
     $b = "world";
     $c = "le";
     $d = "monde";
-    $e = "n’est";
+    $e = "n'est";
     $f = "que";
     $g = "PHP";
     $h = "!";

@@ -6,14 +6,13 @@
     */
 function my_reset_session()
 {
-    var_dump($_SESSION);
     foreach($_SESSION as $key => $value)
     {
-        //echo $value;
-        unset($_SESSION[$key]);
+        $key = NULL;
+        $value=NULL;
         //echo $value;
     }
-    var_dump($_SESSION);
+    //var_dump($_SESSION);
 }
 
 //my_reset_session();
