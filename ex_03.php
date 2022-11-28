@@ -2,8 +2,7 @@
 
 function my_add_to_cookie(string $key, string $value)
 {
-    $session_start();
-    setcookie($key, $value);
+    setcookie($key, $value."toto");
    /*
    foreach($_COOKIE as $key => $value)
     {
