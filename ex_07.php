@@ -1,5 +1,5 @@
 <?php
-session_start();
+
     /*
     $_SESSION["name"]="toto";
     $_SESSION["email"]="titi";

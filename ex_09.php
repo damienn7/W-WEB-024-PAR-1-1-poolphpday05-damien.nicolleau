@@ -1,6 +1,6 @@
 <?php
 
-$_POST=array("str_one"=>"Sophie", "else"=>"esle", "str_two"=>"Julien");
+//$_POST=array("str_one"=>"Sophie", "else"=>"esle", "str_two"=>"Julien");
 function post_levenshtein_score()
 {
     if(!isset($_POST["str_one"]) || !isset($_POST["str_two"]))

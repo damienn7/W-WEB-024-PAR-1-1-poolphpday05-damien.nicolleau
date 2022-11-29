@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 function my_print_session(string $key)
 {
